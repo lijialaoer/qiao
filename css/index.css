@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2017-10-03 12:37:19
 * @Last Modified by:   lenovo
-* @Last Modified time: 2017-10-08 14:20:11
+* @Last Modified time: 2017-10-20 10:46:21
 */
 @import url('base.css');
 /* 头部开始 */
@@ -264,6 +264,9 @@ header{
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 18px;
+}
+.spanword{
+	display: none;
 }
 .brandmore{
 	width: 158px;

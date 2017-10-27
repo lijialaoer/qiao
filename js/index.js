@@ -63,5 +63,18 @@ window.addEventListener('load',function(){
 		now=next;
 	}
 	
+	//word
+	let spanword=document.querySelector('.spanword');
+	let pp=document.querySelector('.brandtop>p');
+	let i=0;
+	
+		t=setInterval(function(){
+			pp.innerText=spanword.innerText.substring(0,i);
+			i++;
+			if(pp.innerText==spanword.innerText.length){
+				clearInterval(t)
+			}
+		},60)
+		
 	
 })
